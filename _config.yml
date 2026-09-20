@@ -19,13 +19,25 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 山不↘厌高↗海不↘厌深↗
+name: 山不↘厌高↗海不↘厌深↗
+author: 山不↘厌高↗海不↘厌深↗
 email: heopro@163.com
 description: >- # this means to ignore newlines until "baseurl:"
-  x 不可怕， x 是凉爽的夏夜，可供人无忧的安眠。
+  读书笔记、代码实践与日常思考的记录。把一些零碎的灵感，慢慢写成可以回看的人生日志。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yetsing.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: yetsing
-github_username:  yetsing
+github_username: yetsing
+
+navbar-links:
+  首页: "/"
+  关于: "/about/"
+  GitHub: "https://github.com/yetsing"
+
+social-network-links:
+  github: yetsing
+  email: heopro@163.com
+  rss: true
 
 # Build settings
 remote_theme: daattali/beautiful-jekyll@master
